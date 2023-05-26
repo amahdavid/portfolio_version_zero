@@ -1,0 +1,101 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* Center the text */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Home section styles */
+.home {
+  background-color: #F8F9FA;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Projects section */
+.projects {
+  padding: 50px;
+  text-align: center;
+}
+
+/* About section styles */
+.about {
+  padding: 50px;
+  text-align: center;
+}
+
+.profile_pic,
+.project-image {
+  width: 160px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* CSS for project images */
+
+/* My Links section styles */
+.my_links {
+  background-color: #F8F9FA;
+  padding: 50px;
+  text-align: center;
+}
+
+.my_links h2 {
+  margin-bottom: 20px;
+}
+
+.my_links ul {
+  list-style: none;
+}
+
+.my_links ul li {
+  margin-bottom: 10px;
+}
+
+.my_links ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
